@@ -1,12 +1,18 @@
 {
   "extends": "../../base.tsconfig.json",
   "compilerOptions": {
-    "rootDir": "./src",
+    "rootDir": "./",
     "outDir": "./dist",
-    "moduleResolution": "node16",
-    "module": "node18",
-    "allowArbitraryExtensions": true,
-    "rewriteRelativeImportExtensions": true
+
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2023",
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "skipLibCheck": true
   },
-  "include": ["**/*.ts"],
+  "include": ["**/*.ts"]
 }
