@@ -1,0 +1,15 @@
+{
+  "name": "ai-chat-app",
+  "scripts": {
+    "build": "tsc --build --verbose"
+  },
+  "workspaces": [
+    "apps/web",
+    "apps/server"
+  ],
+  "devDependencies": {
+    "oxlint": "^1.2.0",
+    "prettier": "3.5.3",
+    "typescript": "^5.8.3"
+  }
+}

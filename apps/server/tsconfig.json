@@ -1,0 +1,12 @@
+{
+  "extends": "../../base.tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "moduleResolution": "node16",
+    "module": "node18",
+    "allowArbitraryExtensions": true,
+    "rewriteRelativeImportExtensions": true
+  },
+  "include": ["**/*.ts"],
+}
