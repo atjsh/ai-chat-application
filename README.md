@@ -17,8 +17,7 @@
 
 ```bash
 npm i
-npm run build --workspace=@atjsh/ai-chat-server
-npm run start --workspace=@atjsh/ai-chat-server
+npm run start:dev --workspace=@atjsh/ai-chat-server
 ```
 
 ### web 실행
