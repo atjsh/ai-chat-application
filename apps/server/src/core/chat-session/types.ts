@@ -1,7 +1,7 @@
 import { randomUUID } from 'node:crypto';
 
 export class ChatSession {
-  private readonly type = 'ChatSession';
+  public readonly type = 'ChatSession';
   public readonly id: string = randomUUID();
 
   constructor() {}
