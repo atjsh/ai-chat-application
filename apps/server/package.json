@@ -1,7 +1,6 @@
 {
   "name": "@atjsh/ai-chat-server",
   "private": true,
-  "type": "commonjs",
   "scripts": {
     "start:dev": "nest start --watch"
   },
@@ -18,9 +17,10 @@
     "@nestjs/websockets": "^11.1.5",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.2",
+    "comlink": "^4.4.2",
+    "deepFilterNet": "file:../../DeepFilterNet/libDF/pkg",
     "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.1",
-    "deep_filter": "file:../../DeepFilterNet/libDF/pkg"
+    "rxjs": "^7.8.1"
   },
   "devDependencies": {
     "@nestjs/cli": "^11.0.0",
