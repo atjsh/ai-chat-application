@@ -265,3 +265,8 @@ $RECYCLE.BIN/
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/yarn,node,macos,windows,linux,git,visualstudiocode
+
+# Custom
+
+## NVM (Node Version Manager)
+.nvmrc
