@@ -5,7 +5,7 @@
     "start:dev": "nest start --watch"
   },
   "dependencies": {
-    "@google/genai": "^1.10.0",
+    "@google/genai": "^1.22.0",
     "@huggingface/transformers": "^3.6.0",
     "@nestjs/common": "^11.0.17",
     "@nestjs/config": "^4.0.2",
